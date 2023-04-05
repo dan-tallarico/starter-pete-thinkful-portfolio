@@ -1,0 +1,132 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+article > h2 {
+  text-align: center;
+}
+div > h3 {
+  text-align: center;
+
+}
+
+section > h3 {
+  text-align: center;
+
+}
+
+/* Header */
+header {
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  
+}
+nav {
+  margin: 10px;
+  justify-content: center;
+
+}
+
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+/* Grouping for the about me section */
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item{
+  flex: 1;
+  margin: 10px;
+  line-height: 10px;
+}
+
+
+
+/* Styling for the portfolio section grouping, 
+using Flex to put items in a row. Different styling than the about me section*/
+
+.group-image{
+
+    display: flex;
+    flex-direction: row;
+  
+  }
+
+
+.item-image {
+  width:32%;
+  margin: 10px;
+  
+}
+
+
+
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  float: left;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+  max-width: 80%;
+}
